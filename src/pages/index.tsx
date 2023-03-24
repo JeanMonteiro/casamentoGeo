@@ -26,7 +26,7 @@ export default function Home() {
           <a href={placeUrl} target={'_blank'} className={'flex items-center justify-center mt-14 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
             <RiMapPin2Line className={'border-orange-700 mr-4'} />Local do Casamento
           </a>
-          <a href={'#'} className={'flex items-center justify-center mt-6 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
+          <a href={'https://forms.gle/eCibpHsV1MH5xe799'} target={'_blank'} className={'flex items-center justify-center mt-6 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
             <RiAccountPinBoxLine className={'border-orange-700 mr-4'} />Confirmar presença
           </a>
         </div>
