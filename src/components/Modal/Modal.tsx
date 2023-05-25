@@ -23,7 +23,7 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, children, onClose, title =
   }
 
   return (
-    <div className="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+    <div className="modal absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
       <div className="w-full bg-white p-4 rounded shadow-lg max-w-4xl m-auto">
         <div className='w-full flex justify-between items-center mb-8'>
           <h2 className="text-2xl">{title}</h2>

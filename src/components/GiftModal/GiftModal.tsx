@@ -32,11 +32,14 @@ export const GiftModal: FC<GiftModalProps> = ({ isOpen, onClose }) => {
             <p className={''}>
             Para contribuir basta ler o QR Code do seu aplicativo de banco e fazer uma doação. Com cada doação, pequena ou grande, podemos fazer uma diferença significativa juntos. Agradecemos profundamente pela presença em nossas vidas e por apoiar esta nova fase de nossa jornada.
             </p>
+            <p className={'text-xs text-slate-400'}>
+            Os valores serão transferidos para conta de <b>Mariana de Jesus Souza (Rainha 👸🏻)</b>, em seguida repassados para instiruição <b>Monte Sinai</b>.
+            </p>
           </div>
         </div>
         <div className='w-full flex flex-col gap-4 p-4 bg-slate-50 rounded-lg'>
-            <p className="text-lg font-bold">Abra seu aplicativo de banco e faça a leitura do QR Code ou copie e cole.</p>
-            <div className="w-full flex flex-col md:flex-row items-start justify-start md:items-center md:justify-center gap-8">
+            <p className="text-md text-center md:text-left md:text-lg font-bold">Abra seu aplicativo de banco e faça a leitura do QR Code ou copie e cole.</p>
+            <div className="w-full flex flex-col md:flex-row items-center justify-center md:items-start md:justify-start gap-8">
               <div className="rounded overflow-hidden w-[150px] h-[150px]">
                 <Image alt='qr-code' src='/images/qr-code-payment.png' width={150} height={150} />
               </div>
