@@ -19,7 +19,7 @@ export const GiftModal: FC<GiftModalProps> = ({ isOpen, onClose }) => {
   }
 
   return (
-    <Modal title="Presentes" isOpen={isOpen} onClose={onClose}>
+    <Modal title="Presente de casamento" isOpen={isOpen} onClose={onClose}>
       <div className="w-full flex flex-col gap-8">
         <div className="w-full flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="w-full flex flex-col gap-8">
