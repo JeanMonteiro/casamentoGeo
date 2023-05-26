@@ -36,7 +36,10 @@ export const GiftModal: FC<GiftModalProps> = ({ isOpen, onClose }) => {
             Para contribuir basta ler o QR Code do seu aplicativo de banco e fazer uma doação. Com cada doação, pequena ou grande, podemos fazer uma diferença significativa juntos. Agradecemos profundamente pela presença em nossas vidas e por apoiar esta nova fase de nossa jornada.
             </p>
             <p className={'text-xs text-slate-400'}>
-            Os valores serão transferidos para conta de <b>Mariana de Jesus Souza (Rainha 👸🏻)</b>, em seguida repassados para instiruição <b>Monte Sinai</b>.
+            Os valores serão transferidos para conta de <b>Mariana de Jesus Souza (Rainha 👸🏻)</b>, em seguida repassados para instituição <b>Monte Sinai</b>.
+            </p>
+            <p className={'text-xs text-slate-400'}>
+            Para mais informações, acesso o instagram: <a href='https://www.instagram.com/abrigomontesinaioficial/' target='_blank' rel='nofollow'><b>@abrigomontesinaioficial</b></a>.
             </p>
           </div>
         </div>
