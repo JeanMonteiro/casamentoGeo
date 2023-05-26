@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { FC, useState } from "react"
+import { ImageSlider } from "../ImageSlider/ImageSlider"
 import { Modal } from "../Modal/Modal"
 
 interface GiftModalProps {
@@ -23,7 +24,9 @@ export const GiftModal: FC<GiftModalProps> = ({ isOpen, onClose }) => {
       <div className="w-full flex flex-col gap-8">
         <div className="w-full flex flex-col md:flex-row items-start justify-between gap-8">
           <div className="w-full flex flex-col gap-8">
-            <div className='bg-slate-300 rounded-lg w-full h-[400px]' />
+            <div className='bg-slate-300 overflow-hidden rounded-lg w-full h-[400px]'>
+              <ImageSlider images={['/images/_DSC2579.jpg', '/images/_DSC2640.jpg', '/images/_DSC2650.jpg', '/images/_DSC2686.jpg', '/images/_DSC2699.jpg', '/images/_DSC2731.jpg']}/>
+            </div>
           </div>
           <div className="w-full flex flex-col gap-4">
             <p className={''}>

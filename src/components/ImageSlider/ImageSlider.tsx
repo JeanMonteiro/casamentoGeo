@@ -36,7 +36,7 @@ export const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
           ref={(el) => (imageRefs.current[index] = el)}
           className="absolute w-full h-full object-cover"
           src={image}
-          alt=""
+          alt={`Monte sinai - ${index}`}
         />
       ))}
     </div>
