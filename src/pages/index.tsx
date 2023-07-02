@@ -35,9 +35,11 @@ export default function Home() {
           <a href={'https://forms.gle/LDc7yHoRoy3b9WT27'} target={'_blank'} className={'flex items-center justify-center mt-6 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
             <RiAccountPinBoxLine className={'border-orange-700 mr-4'} />Confirmar presença
           </a>
-          {/* <button onClick={() => setIsModalOpen(true)} className={'flex items-center justify-center mt-6 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
-            <RiGift2Line className={'border-orange-700 mr-4'} />Presentes aqui
-          </button> */}
+          <a href='https://site.lejour.com.br/lista-de-presentes/geovanamarcos'>
+            <button className={'flex items-center justify-center mt-6 w-full p-4 rounded-md border border-orange-700 hover:border-orange-900 transition-colors text-orange-700 text-center'}>
+              <RiGift2Line className={'border-orange-700 mr-4'} />Presentes aqui
+            </button>
+          </a>
         </div>
         {/* <GiftModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} /> */}
       </main>
